@@ -14,24 +14,24 @@
 
 * User can pay monthly for creator
   * via OAK SDK Turing-Staging
-  * [source code](./src/components/web3/nft/btn/Subscribe.vue)
-* Blog: user creation for sale [source code](./src/components/web3/nft/article/Form.vue)
+  * [source code](./frontend/src/components/web3/nft/btn/Subscribe.vue)
+* Blog: user creation for sale [source code](./frontend/src/components/web3/nft/article/Form.vue)
   * list/create blog posts, save in IPFS
-  * With LIT to have content permission control (user must mint poster's NFT to have access to the article) [source code](./src/helpers/litHelper.ts)
-  * blog content can add token gating logic (only user have special NFT can read the blog content) [source code](./src/pages/web3nft.social/%5BuserWalletAddress%5D/blog/%5Bid%5D.vue)
+  * With LIT to have content permission control (user must mint poster's NFT to have access to the article) [source code](./frontend/src/helpers/litHelper.ts)
+  * blog content can add token gating logic (only user have special NFT can read the blog content) [source code](./frontend/src/pages/web3nft.social/%5BuserWalletAddress%5D/blog/%5Bid%5D.vue)
   * readers can mint NFT for creator (Moonbase Aplpha testnet)
-    * [FE code](./src/components/web3/nft/btn/MintNFT.vue)
+    * [FE code](./frontend/src/components/web3/nft/btn/MintNFT.vue)
     * [NFT Contract Code](./contracts/CTC_ERC721A.sol)
     * [NFT contract on Moonbase](https://moonbase.moonscan.io/address/0x83b06d09b99ad2641dd9b1132e8ce8809b623433)
   * readers can voteUp/voteDown for creator  (Moonbase Aplpha testnet)
-    * [FE code](./src/components/web3/nft/btn/VoteUpDown.vue)
+    * [FE code](./frontend/src/components/web3/nft/btn/VoteUpDown.vue)
     * [Voting Contract Code](./contracts/CrowdFunding.sol)
     * [Voting contract on Moonbase](https://moonbase.moonscan.io/address/0xc6ed496eafaacd3254add3e62cd3f1d87b8d89ac)
 * Social relations: CyberConnect
-  * Follow/unfollow actions [source code](./src/components/web3/nft/btn/Follow.vue)
-  * Followers list  [source code](./src/components/web3/nft/dialog/relationshipList.vue)
-  * Followings list [source code](./src/components/web3/nft/dialog/relationshipList.vue)
-* Web3 LinkTree  [source code](./src/pages/web3nft.social/settings/Web3Home.vue)
+  * Follow/unfollow actions [source code](./frontend/src/components/web3/nft/btn/Follow.vue)
+  * Followers list  [source code](./frontend/src/components/web3/nft/dialog/relationshipList.vue)
+  * Followings list [source code](./frontend/src/components/web3/nft/dialog/relationshipList.vue)
+* Web3 LinkTree  [source code](./frontend/src/pages/web3nft.social/settings/Web3Home.vue)
   * User can add many social platform link to their W3NS home page
   * Data store on IPFS
   * Data permission control by LIT
@@ -41,22 +41,22 @@
 
 * 用户可以按月支付给创作者
   * 通过 OAK SDK Turing-Staging 网络
-  * [source code](./src/components/web3/nft/btn/Subscribe.vue)
-* Blog: 用户创作经济 [source code](./src/components/web3/nft/article/Form.vue)
+  * [source code](./frontend/src/components/web3/nft/btn/Subscribe.vue)
+* Blog: 用户创作经济 [source code](./frontend/src/components/web3/nft/article/Form.vue)
   * 列出/创建博客内容，保存到 IPFS
   * 结合 LIT 来可以让内容具有链上权限控制功能(用户必须购买作者指定的 NFT 才能看到博客内容）
-  * 博客内容添加了 token 网关功能逻辑（只有用户用特定的 NFT 才能阅读博客内容）[source code](./src/pages/web3nft.social/%5BuserWalletAddress%5D/blog/%5Bid%5D.vue)
+  * 博客内容添加了 token 网关功能逻辑（只有用户用特定的 NFT 才能阅读博客内容）[source code](./frontend/src/pages/web3nft.social/%5BuserWalletAddress%5D/blog/%5Bid%5D.vue)
   * 读者可以 mint 创作者的 NFT  (Moonbase Aplpha testnet)
-    * [FE code](./src/components/web3/nft/btn/MintNFT.vue)
+    * [FE code](./frontend/src/components/web3/nft/btn/MintNFT.vue)
     * [NFT Contract Code](./contracts/CTC_ERC721A.sol)
   * 读者可以给创作者投票 voteUp/voteDown  (Moonbase Aplpha testnet)
-    * [FE code](./src/components/web3/nft/btn/VoteUpDown.vue)
+    * [FE code](./frontend/src/components/web3/nft/btn/VoteUpDown.vue)
     * [Voting Contract Code](./contracts/CrowdFunding.sol)
 * 社交关系：CyberConnect
-  * 关注/取关功能 [source code](./src/components/web3/nft/btn/Follow.vue)
-  * 用户粉丝列表 [source code](./src/components/web3/nft/dialog/relationshipList.vue)
-  * 用户关注列表 [source code](./src/components/web3/nft/dialog/relationshipList.vue)
-* Web3 LinkTree [source code](./src/pages/web3nft.social/settings/Web3Home.vue)
+  * 关注/取关功能 [source code](./frontend/src/components/web3/nft/btn/Follow.vue)
+  * 用户粉丝列表 [source code](./frontend/src/components/web3/nft/dialog/relationshipList.vue)
+  * 用户关注列表 [source code](./frontend/src/components/web3/nft/dialog/relationshipList.vue)
+* Web3 LinkTree [source code](./frontend/src/pages/web3nft.social/settings/Web3Home.vue)
   * 用户可以添加多个社交平台链接到他们的主页
   * 数据存储在 IPFS
   * 数据读取权限可以用 LIT 控制
