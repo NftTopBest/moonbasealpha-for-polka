@@ -1,7 +1,9 @@
 ## Web3NFT.Social
 
 * Online demo: [Online link](https://moonbasealpha.web3nft.social/0xC6E58fb4aFFB6aB8A392b7CC23CD3feF74517F6C)
-* Video demo: [Video link](#)
+* Video demo:
+  * [English Demo Video link](https://www.loom.com/share/ae0463da385248df8f3d41efe4df74da)
+  * [中文 Demo 视频链接](https://www.loom.com/share/539debcda8e74182b2e373007a31d021)
 * Keynote(pdf version): [Keynote in pdf link](./keynote.pdf)
 * Keynote(markdown version): [Keynote in markdown link](./BP.md)
 * Screenshot list: [Click to view](./screenshot/)
