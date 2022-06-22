@@ -12,7 +12,7 @@
 
 * User can pay monthly for creator
   * via OAK SDK Turing-Staging
-  * [source code](.src/components/web3/nft/btn/Subscribe.vue)
+  * [source code](./src/components/web3/nft/btn/Subscribe.vue)
 * Blog: user creation for sale [source code](./src/components/web3/nft/article/Form.vue)
   * list/create blog posts, save in IPFS
   * With LIT to have content permission control (user must mint poster's NFT to have access to the article) [source code](./src/helpers/litHelper.ts)
@@ -37,7 +37,7 @@
 
 * 用户可以按月支付给创作者
   * 通过 OAK SDK Turing-Staging 网络
-  * [source code](.src/components/web3/nft/btn/Subscribe.vue)
+  * [source code](./src/components/web3/nft/btn/Subscribe.vue)
 * Blog: 用户创作经济 [source code](./src/components/web3/nft/article/Form.vue)
   * 列出/创建博客内容，保存到 IPFS
   * 结合 LIT 来可以让内容具有链上权限控制功能(用户必须购买作者指定的 NFT 才能看到博客内容）
