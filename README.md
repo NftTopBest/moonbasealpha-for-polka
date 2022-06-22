@@ -20,9 +20,11 @@
   * readers can mint NFT for creator (Moonbase Aplpha testnet)
     * [FE code](./src/components/web3/nft/btn/MintNFT.vue)
     * [NFT Contract Code](./contracts/CTC_ERC721A.sol)
+    * [NFT contract on Moonbase](https://moonbase.moonscan.io/address/0x83b06d09b99ad2641dd9b1132e8ce8809b623433)
   * readers can voteUp/voteDown for creator  (Moonbase Aplpha testnet)
     * [FE code](./src/components/web3/nft/btn/VoteUpDown.vue)
     * [Voting Contract Code](./contracts/CrowdFunding.sol)
+    * [Voting contract on Moonbase](https://moonbase.moonscan.io/address/0xc6ed496eafaacd3254add3e62cd3f1d87b8d89ac)
 * Social relations: CyberConnect
   * Follow/unfollow actions [source code](./src/components/web3/nft/btn/Follow.vue)
   * Followers list  [source code](./src/components/web3/nft/dialog/relationshipList.vue)
