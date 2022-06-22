@@ -2,7 +2,8 @@
 
 * Online demo: [Online link](https://moonbasealpha.web3nft.social/0xC6E58fb4aFFB6aB8A392b7CC23CD3feF74517F6C)
 * Video demo: [Video link](#)
-* Keynote(pdf version): [Keynote link](./keynote.pdf)
+* Keynote(pdf version): [Keynote in pdf link](./keynote.pdf)
+* Keynote(markdown version): [Keynote in markdown link](./BP.md)
 * Screenshot list: [Click to view](./screenshot/)
 
 <img src="./screenshot/full-1.png" />
